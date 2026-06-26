@@ -7,7 +7,7 @@ import org.apache.struts2.interceptor.SessionAware;
 import com.diworksdev.template.dao.BuyItemDAO;
 import com.diworksdev.template.dao.LoginDAO;
 import com.diworksdev.template.dto.BuyItemDTO;
-import com. diworksdev.template.dto.LoginDTO;
+import com.diworksdev.template.dto.LoginDTO;
 import com.opensymphony.xwork2.ActionSupport;
 
 public class LoginAction extends ActionSupport implements SessionAware{
@@ -63,5 +63,4 @@ public class LoginAction extends ActionSupport implements SessionAware{
 	public void setSession(Map<String, Object> session) {
 		this.session = session;
 	}
-
 }
