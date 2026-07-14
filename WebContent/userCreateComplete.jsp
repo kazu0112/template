@@ -12,7 +12,7 @@
 	<meta name="keywords"content=""/>
 	<title>UserCreateComplete画面</title>
 	
-	<sytle type="text/css">
+	<style type="text/css">
 	/* ======TAG LAYOUT======== */
 		body{
 			margin:0;
@@ -55,7 +55,7 @@
 			background-color:black;
 			clear:both;
 		}
-	</sytle>
+	</style>
 </head>
 <body>
 	<div id = "header">
