@@ -67,7 +67,7 @@
 			<p>BuyItemConfirm</p>
 		</div>
 		<div>
-			<s:form action = "BuyitemConfirmAction">
+			<s:form action = "BuyItemConfirmAction">
 			<table>
 				<tr>
 					<td>商品名</td>
@@ -89,7 +89,7 @@
 				<tr>
 					<td>支払い方法</td>
 					<td>
-						<s:property value = "session.pay"/>
+						<s:property value = "session.stock"/>
 					</td>
 				</tr>
 				<tr>
