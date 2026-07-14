@@ -13,7 +13,7 @@
 	<title>UserCreateComplete画面</title>
 	
 	<sytle type="text/css">
-	/* =========TAG LAYOUT======== */
+	/* ======TAG LAYOUT======== */
 		body{
 			margin:0;
 			padding:0;
