@@ -83,13 +83,13 @@
 				<tr>
 					<td>購入個数</td>
 					<td>
-						<s:property value = "session.pay"/>
+						<s:property value = "session.stock"/>
 					</td>
 				</tr>
 				<tr>
 					<td>支払い方法</td>
 					<td>
-						<s:property value = "session.stock"/>
+						<s:property value = "session.pay"/>
 					</td>
 				</tr>
 				<tr>
