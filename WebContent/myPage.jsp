@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib prefix="s" uri="/struts- tags"%>
+<%@ taglib prefix="s" uri="/struts-tags"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -42,6 +42,12 @@
 			background-color:black;
 		}
 		
+		#main{
+			width:100%;
+			height:500px;
+			text-align:center;
+		}
+		
 		#footer{
 			width:100%;
 			height:80px;
@@ -75,7 +81,7 @@
 				</tr>
 				<tr>
 					<td>購入個数</td>
-					<td><s:property value = "session/total_count"/>
+					<td><s:property value = "session.total_count"/>
 						<span>個</span>
 					</td>
 				</tr>
@@ -89,7 +95,7 @@
 						<s:submit value = "削除" merhod = "delete"/>
 				</s:form>
 			</s:if>
-			<s:if test = "session.message ! = null">
+			<s:if test = "session.message != null">
 				<h3><s:property value = "session.message"/></h3>
 			</s:if>
 				<div>
